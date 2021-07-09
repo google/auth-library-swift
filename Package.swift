@@ -28,7 +28,7 @@ let package = Package(
     .library(name: "SwiftyBase64", targets: ["SwiftyBase64"]),
   ],
   dependencies: [
-    .package(url: "https://github.com/apple/swift-nio.git", from: "2.9.0"),
+    .package(url: "https://github.com/apple/swift-nio.git", from: "2.30.0"),
     .package(url: "https://github.com/krzyzanowskim/CryptoSwift.git", "1.1.3"..."1.3.2"),
     .package(url: "https://github.com/attaswift/BigInt", from: "5.0.0"),
   ],
