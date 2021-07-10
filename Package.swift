@@ -29,7 +29,7 @@ let package = Package(
   ],
   dependencies: [
     .package(url: "https://github.com/apple/swift-nio.git", from: "2.9.0"),
-    .package(url: "https://github.com/krzyzanowskim/CryptoSwift.git", "1.1.3"..."1.3.2"),
+    .package(url: "https://github.com/krzyzanowskim/CryptoSwift.git", "1.1.3"..."1.4.1"),
     .package(url: "https://github.com/attaswift/BigInt", from: "5.0.0"),
   ],
   targets: [
